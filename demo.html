@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  .header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .image-box {
+    width: calc(50% - 1rem);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .image-box img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>Image Gallery</h1>
+  </div>
+  <div class="container">
+    <div class="image-box">
+      <img src="sunflower-4337381_640-2.jpg" alt="Image 1">
+      <h2>Image 1</h2>
+      <p>Sunflowers</p>
+    </div>
+    <div class="image-box">
+      <img src="image2.jpg" alt="Image 2">
+      <h2>Image 2</h2>
+      <p>Description for Image 2.</p>
+    </div>
+  </div>
+</body>
+</html>
